@@ -18,7 +18,7 @@ export  default function( Vue ){
 						console.log('this is imghttp=',  $(el).html().substr(0, 4));
 						if( index > 0 &&   $(el).html().substr(0, 4) != '<img'  ){
 							if ( $(el).html().substr(0, 4) != 'http' ) {
-								$(el).html('<img src="http://10.48.154.203/loyaltyApp'+ $(el).html() +'"style="height:60px;width:60px;"/>  ')
+								$(el).html('<img src="http://10.48.2.57:8080/loyaltyApp'+ $(el).html() +'"style="height:60px;width:60px;"/>  ')
 							} else{
 								$(el).html('<img src="'+ $(el).html() +'"style="height:60px;width:60px;"/>  ')
 							}
